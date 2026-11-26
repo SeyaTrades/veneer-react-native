@@ -1,0 +1,1492 @@
+{
+  "studios": [
+    {
+      "id": "std_blank",
+      "name": "Blank Studio",
+      "kind": "blank",
+      "floor": "#d9cfc1",
+      "wall": "#f2efe9",
+      "roomW": 400.0,
+      "roomD": 400.0,
+      "ceilH": 260.0
+    },
+    {
+      "id": "std_living",
+      "name": "Living Room",
+      "kind": "living",
+      "floor": "#c7a987",
+      "wall": "#ede8df",
+      "roomW": 450.0,
+      "roomD": 380.0,
+      "ceilH": 260.0
+    },
+    {
+      "id": "std_bed",
+      "name": "Bedroom",
+      "kind": "bedroom",
+      "floor": "#bfa282",
+      "wall": "#e6ece8",
+      "roomW": 340.0,
+      "roomD": 320.0,
+      "ceilH": 260.0
+    },
+    {
+      "id": "std_kitchen",
+      "name": "Kitchen",
+      "kind": "kitchen",
+      "floor": "#cfd2cd",
+      "wall": "#f4f6f6",
+      "roomW": 300.0,
+      "roomD": 240.0,
+      "ceilH": 260.0
+    },
+    {
+      "id": "std_dining",
+      "name": "Dining Room",
+      "kind": "dining",
+      "floor": "#b89778",
+      "wall": "#f1e7dd",
+      "roomW": 360.0,
+      "roomD": 320.0,
+      "ceilH": 260.0
+    }
+  ],
+  "items": [
+    {
+      "id": "itm_sofa",
+      "name": "KLIPPAN Loveseat",
+      "cat": "Sofas",
+      "rooms": [
+        "living",
+        "blank"
+      ],
+      "styles": [
+        "Minimalist",
+        "Modern"
+      ],
+      "zone": "floor",
+      "shapeKey": "sofa_love",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "wCm": 180.0,
+      "dCm": 88.0,
+      "hCm": 66.0,
+      "defElev": 0.0,
+      "canFlip": true,
+      "spawnZ": 10,
+      "minPrice": 14250.0,
+      "listings": [
+        {
+          "id": "l1",
+          "store": "IKEA PH",
+          "regPrice": 14999.0,
+          "salePrice": null,
+          "bestPrice": 14999.0,
+          "promoTag": null,
+          "url": "https://www.ikea.com/ph/en/search/?q=KLIPPAN%20loveseat"
+        },
+        {
+          "id": "l2",
+          "store": "Shopee Mall",
+          "regPrice": 15800.0,
+          "salePrice": 14250.0,
+          "bestPrice": 14250.0,
+          "promoTag": "10% OFF",
+          "url": "https://shopee.ph/search?keyword=2%20seater%20fabric%20loveseat%20sofa"
+        }
+      ]
+    },
+    {
+      "id": "itm_armchair",
+      "name": "POÄNG Armchair",
+      "cat": "Chairs",
+      "rooms": [
+        "living",
+        "bedroom"
+      ],
+      "styles": [
+        "Japandi",
+        "Cozy"
+      ],
+      "zone": "floor",
+      "shapeKey": "chair_lounge",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "wCm": 68.0,
+      "dCm": 82.0,
+      "hCm": 100.0,
+      "defElev": 0.0,
+      "canFlip": true,
+      "spawnZ": 10,
+      "minPrice": 4899.0,
+      "listings": [
+        {
+          "id": "l3",
+          "store": "IKEA PH",
+          "regPrice": 4999.0,
+          "salePrice": null,
+          "bestPrice": 4999.0,
+          "promoTag": null,
+          "url": "https://www.ikea.com/ph/en/search/?q=POANG%20armchair"
+        },
+        {
+          "id": "l4",
+          "store": "Lazada",
+          "regPrice": 5499.0,
+          "salePrice": 4899.0,
+          "bestPrice": 4899.0,
+          "promoTag": "VOUCHER",
+          "url": "https://www.lazada.com.ph/catalog/?q=bentwood%20lounge%20armchair"
+        }
+      ]
+    },
+    {
+      "id": "itm_dchair",
+      "name": "PINNTORP Chair",
+      "cat": "Chairs",
+      "rooms": [
+        "dining",
+        "kitchen"
+      ],
+      "styles": [
+        "Minimalist",
+        "Japandi"
+      ],
+      "zone": "floor",
+      "shapeKey": "chair_dining",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "wCm": 45.0,
+      "dCm": 50.0,
+      "hCm": 84.0,
+      "defElev": 0.0,
+      "canFlip": true,
+      "spawnZ": 10,
+      "minPrice": 2375.0,
+      "listings": [
+        {
+          "id": "l5",
+          "store": "IKEA PH",
+          "regPrice": 2499.0,
+          "salePrice": null,
+          "bestPrice": 2499.0,
+          "promoTag": null,
+          "url": "https://www.ikea.com/ph/en/search/?q=PINNTORP%20chair"
+        },
+        {
+          "id": "l6",
+          "store": "Mandaue",
+          "regPrice": 2795.0,
+          "salePrice": 2375.0,
+          "bestPrice": 2375.0,
+          "promoTag": "15% OFF",
+          "url": "https://mandauefoam.ph/search?q=dining%20chair"
+        }
+      ]
+    },
+    {
+      "id": "itm_bed",
+      "name": "SLATTUM Bed Frame",
+      "cat": "Beds",
+      "rooms": [
+        "bedroom"
+      ],
+      "styles": [
+        "Minimalist",
+        "Cozy"
+      ],
+      "zone": "floor",
+      "shapeKey": "bed_frame",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "wCm": 154.0,
+      "dCm": 206.0,
+      "hCm": 85.0,
+      "defElev": 0.0,
+      "canFlip": true,
+      "spawnZ": 10,
+      "minPrice": 7690.0,
+      "listings": [
+        {
+          "id": "l7",
+          "store": "IKEA PH",
+          "regPrice": 7999.0,
+          "salePrice": null,
+          "bestPrice": 7999.0,
+          "promoTag": null,
+          "url": "https://www.ikea.com/ph/en/search/?q=SLATTUM%20bed%20frame"
+        },
+        {
+          "id": "l8",
+          "store": "Shopee Mall",
+          "regPrice": 8990.0,
+          "salePrice": 7690.0,
+          "bestPrice": 7690.0,
+          "promoTag": "FLASH DEAL",
+          "url": "https://shopee.ph/search?keyword=upholstered%20double%20bed%20frame"
+        }
+      ]
+    },
+    {
+      "id": "itm_dtable",
+      "name": "PINNTORP Table",
+      "cat": "Tables",
+      "rooms": [
+        "dining",
+        "kitchen"
+      ],
+      "styles": [
+        "Minimalist",
+        "Japandi"
+      ],
+      "zone": "floor",
+      "shapeKey": "table_dining",
+      "views": [
+        "front",
+        "side"
+      ],
+      "wCm": 125.0,
+      "dCm": 75.0,
+      "hCm": 75.0,
+      "defElev": 0.0,
+      "canFlip": false,
+      "spawnZ": 10,
+      "minPrice": 7600.0,
+      "listings": [
+        {
+          "id": "l9",
+          "store": "IKEA PH",
+          "regPrice": 7999.0,
+          "salePrice": null,
+          "bestPrice": 7999.0,
+          "promoTag": null,
+          "url": "https://www.ikea.com/ph/en/search/?q=PINNTORP%20table"
+        },
+        {
+          "id": "l10",
+          "store": "Mandaue",
+          "regPrice": 8950.0,
+          "salePrice": 7600.0,
+          "bestPrice": 7600.0,
+          "promoTag": "15% OFF",
+          "url": "https://mandauefoam.ph/search?q=dining%20table"
+        }
+      ]
+    },
+    {
+      "id": "itm_ctable",
+      "name": "LACK Coffee Table",
+      "cat": "Tables",
+      "rooms": [
+        "living"
+      ],
+      "styles": [
+        "Minimalist",
+        "Modern"
+      ],
+      "zone": "floor",
+      "shapeKey": "table_coffee",
+      "views": [
+        "front",
+        "side"
+      ],
+      "wCm": 90.0,
+      "dCm": 55.0,
+      "hCm": 45.0,
+      "defElev": 0.0,
+      "canFlip": false,
+      "spawnZ": 10,
+      "minPrice": 1399.0,
+      "listings": [
+        {
+          "id": "l11",
+          "store": "IKEA PH",
+          "regPrice": 1499.0,
+          "salePrice": null,
+          "bestPrice": 1499.0,
+          "promoTag": null,
+          "url": "https://www.ikea.com/ph/en/search/?q=LACK%20coffee%20table"
+        },
+        {
+          "id": "l12",
+          "store": "Lazada",
+          "regPrice": 1750.0,
+          "salePrice": 1399.0,
+          "bestPrice": 1399.0,
+          "promoTag": "SALE",
+          "url": "https://www.lazada.com.ph/catalog/?q=minimalist%20coffee%20table"
+        }
+      ]
+    },
+    {
+      "id": "itm_nstand",
+      "name": "KNARREVIK Nightstand",
+      "cat": "Tables",
+      "rooms": [
+        "bedroom",
+        "living"
+      ],
+      "styles": [
+        "Industrial",
+        "Minimalist"
+      ],
+      "zone": "floor",
+      "shapeKey": "table_side",
+      "views": [
+        "front",
+        "side"
+      ],
+      "wCm": 37.0,
+      "dCm": 28.0,
+      "hCm": 45.0,
+      "defElev": 0.0,
+      "canFlip": false,
+      "spawnZ": 10,
+      "minPrice": 549.0,
+      "listings": [
+        {
+          "id": "l13",
+          "store": "IKEA PH",
+          "regPrice": 599.0,
+          "salePrice": null,
+          "bestPrice": 599.0,
+          "promoTag": null,
+          "url": "https://www.ikea.com/ph/en/search/?q=KNARREVIK"
+        },
+        {
+          "id": "l14",
+          "store": "Shopee Mall",
+          "regPrice": 699.0,
+          "salePrice": 549.0,
+          "bestPrice": 549.0,
+          "promoTag": "BUNDLE",
+          "url": "https://shopee.ph/search?keyword=metal%20bedside%20nightstand"
+        }
+      ]
+    },
+    {
+      "id": "itm_tvunit",
+      "name": "LACK TV Unit",
+      "cat": "Storage",
+      "rooms": [
+        "living",
+        "bedroom"
+      ],
+      "styles": [
+        "Minimalist",
+        "Modern"
+      ],
+      "zone": "floor",
+      "shapeKey": "tv_unit",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "wCm": 90.0,
+      "dCm": 26.0,
+      "hCm": 45.0,
+      "defElev": 0.0,
+      "canFlip": false,
+      "spawnZ": 10,
+      "minPrice": 2799.0,
+      "listings": [
+        {
+          "id": "l25",
+          "store": "IKEA PH",
+          "regPrice": 2999.0,
+          "salePrice": null,
+          "bestPrice": 2999.0,
+          "promoTag": null,
+          "url": "https://www.ikea.com/ph/en/search/?q=LACK%20TV%20unit"
+        },
+        {
+          "id": "l26",
+          "store": "Lazada",
+          "regPrice": 3299.0,
+          "salePrice": 2799.0,
+          "bestPrice": 2799.0,
+          "promoTag": "VOUCHER",
+          "url": "https://www.lazada.com.ph/catalog/?q=minimalist%20tv%20console%20bench"
+        }
+      ]
+    },
+    {
+      "id": "itm_shelf",
+      "name": "BILLY Bookcase",
+      "cat": "Storage",
+      "rooms": [
+        "living",
+        "bedroom"
+      ],
+      "styles": [
+        "Minimalist",
+        "Modern"
+      ],
+      "zone": "floor",
+      "shapeKey": "shelf_tall",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "wCm": 80.0,
+      "dCm": 28.0,
+      "hCm": 202.0,
+      "defElev": 0.0,
+      "canFlip": true,
+      "spawnZ": 10,
+      "minPrice": 3390.0,
+      "listings": [
+        {
+          "id": "l15",
+          "store": "IKEA PH",
+          "regPrice": 3499.0,
+          "salePrice": null,
+          "bestPrice": 3499.0,
+          "promoTag": null,
+          "url": "https://www.ikea.com/ph/en/search/?q=BILLY%20bookcase"
+        },
+        {
+          "id": "l16",
+          "store": "Lazada",
+          "regPrice": 3990.0,
+          "salePrice": 3390.0,
+          "bestPrice": 3390.0,
+          "promoTag": "FREE SHIP",
+          "url": "https://www.lazada.com.ph/catalog/?q=tall%20white%20bookcase"
+        }
+      ]
+    },
+    {
+      "id": "itm_dresser",
+      "name": "MALM 3-Drawer Chest",
+      "cat": "Storage",
+      "rooms": [
+        "bedroom",
+        "living"
+      ],
+      "styles": [
+        "Minimalist",
+        "Cozy"
+      ],
+      "zone": "floor",
+      "shapeKey": "dresser_malm",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "wCm": 80.0,
+      "dCm": 48.0,
+      "hCm": 78.0,
+      "defElev": 0.0,
+      "canFlip": true,
+      "spawnZ": 10,
+      "minPrice": 5845.0,
+      "listings": [
+        {
+          "id": "l27",
+          "store": "IKEA PH",
+          "regPrice": 5999.0,
+          "salePrice": null,
+          "bestPrice": 5999.0,
+          "promoTag": null,
+          "url": "https://www.ikea.com/ph/en/search/?q=MALM%203-drawer%20chest"
+        },
+        {
+          "id": "l28",
+          "store": "Mandaue",
+          "regPrice": 6495.0,
+          "salePrice": 5845.0,
+          "bestPrice": 5845.0,
+          "promoTag": "10% OFF",
+          "url": "https://mandauefoam.ph/search?q=chest%20of%20drawers"
+        }
+      ]
+    },
+    {
+      "id": "itm_wardrobe",
+      "name": "BRIMNES Wardrobe",
+      "cat": "Storage",
+      "rooms": [
+        "bedroom"
+      ],
+      "styles": [
+        "Modern",
+        "Minimalist"
+      ],
+      "zone": "floor",
+      "shapeKey": "wardrobe_tall",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "wCm": 117.0,
+      "dCm": 50.0,
+      "hCm": 190.0,
+      "defElev": 0.0,
+      "canFlip": true,
+      "spawnZ": 10,
+      "minPrice": 9999.0,
+      "listings": [
+        {
+          "id": "l29",
+          "store": "IKEA PH",
+          "regPrice": 11999.0,
+          "salePrice": 9999.0,
+          "bestPrice": 9999.0,
+          "promoTag": "FAMILY",
+          "url": "https://www.ikea.com/ph/en/search/?q=BRIMNES%20wardrobe"
+        },
+        {
+          "id": "l30",
+          "store": "Shopee Mall",
+          "regPrice": 11500.0,
+          "salePrice": 10200.0,
+          "bestPrice": 10200.0,
+          "promoTag": "VOUCHER",
+          "url": "https://shopee.ph/search?keyword=3%20door%20wardrobe%20cabinet%20mirror"
+        }
+      ]
+    },
+    {
+      "id": "itm_knoxbase",
+      "name": "KNOXHULT Base & Sink",
+      "cat": "Kitchen",
+      "rooms": [
+        "kitchen"
+      ],
+      "styles": [
+        "Minimalist",
+        "Modern"
+      ],
+      "zone": "floor",
+      "shapeKey": "knox_base",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "wCm": 122.0,
+      "dCm": 61.0,
+      "hCm": 91.0,
+      "defElev": 0.0,
+      "canFlip": true,
+      "spawnZ": 10,
+      "minPrice": 11100.0,
+      "listings": [
+        {
+          "id": "l31",
+          "store": "IKEA PH",
+          "regPrice": 11500.0,
+          "salePrice": null,
+          "bestPrice": 11500.0,
+          "promoTag": null,
+          "url": "https://www.ikea.com/ph/en/search/?q=KNOXHULT%20base%20cabinet"
+        },
+        {
+          "id": "l32",
+          "store": "Lazada",
+          "regPrice": 12400.0,
+          "salePrice": 11100.0,
+          "bestPrice": 11100.0,
+          "promoTag": "10% OFF",
+          "url": "https://www.lazada.com.ph/catalog/?q=kitchen%20sink%20base%20cabinet"
+        }
+      ]
+    },
+    {
+      "id": "itm_knoxwall",
+      "name": "KNOXHULT Wall Cabinet",
+      "cat": "Kitchen",
+      "rooms": [
+        "kitchen"
+      ],
+      "styles": [
+        "Minimalist",
+        "Modern"
+      ],
+      "zone": "wall",
+      "shapeKey": "knox_wall",
+      "views": [
+        "front",
+        "side"
+      ],
+      "wCm": 120.0,
+      "dCm": 31.0,
+      "hCm": 75.0,
+      "defElev": 145.0,
+      "canFlip": true,
+      "spawnZ": 5,
+      "minPrice": 5790.0,
+      "listings": [
+        {
+          "id": "l33",
+          "store": "IKEA PH",
+          "regPrice": 6000.0,
+          "salePrice": null,
+          "bestPrice": 6000.0,
+          "promoTag": null,
+          "url": "https://www.ikea.com/ph/en/search/?q=KNOXHULT%20wall%20cabinet"
+        },
+        {
+          "id": "l34",
+          "store": "Shopee Mall",
+          "regPrice": 6490.0,
+          "salePrice": 5790.0,
+          "bestPrice": 5790.0,
+          "promoTag": "VOUCHER",
+          "url": "https://shopee.ph/search?keyword=hanging%20kitchen%20wall%20cabinet"
+        }
+      ]
+    },
+    {
+      "id": "itm_island",
+      "name": "VADHOLMA Island",
+      "cat": "Kitchen",
+      "rooms": [
+        "kitchen",
+        "dining"
+      ],
+      "styles": [
+        "Industrial",
+        "Cozy"
+      ],
+      "zone": "floor",
+      "shapeKey": "island_kit",
+      "views": [
+        "front",
+        "side"
+      ],
+      "wCm": 126.0,
+      "dCm": 79.0,
+      "hCm": 90.0,
+      "defElev": 0.0,
+      "canFlip": false,
+      "spawnZ": 10,
+      "minPrice": 24500.0,
+      "listings": [
+        {
+          "id": "l35",
+          "store": "IKEA PH",
+          "regPrice": 69999.0,
+          "salePrice": null,
+          "bestPrice": 69999.0,
+          "promoTag": null,
+          "url": "https://www.ikea.com/ph/en/search/?q=VADHOLMA%20kitchen%20island"
+        },
+        {
+          "id": "l36",
+          "store": "Mandaue",
+          "regPrice": 28900.0,
+          "salePrice": 24500.0,
+          "bestPrice": 24500.0,
+          "promoTag": "ALT PICK",
+          "url": "https://mandauefoam.ph/search?q=kitchen%20island"
+        }
+      ]
+    },
+    {
+      "id": "itm_lamp",
+      "name": "BARLAST Floor Lamp",
+      "cat": "Lighting",
+      "rooms": [
+        "living",
+        "bedroom"
+      ],
+      "styles": [
+        "Minimalist",
+        "Cozy"
+      ],
+      "zone": "floor",
+      "shapeKey": "lamp_floor",
+      "views": [
+        "front"
+      ],
+      "wCm": 34.0,
+      "dCm": 34.0,
+      "hCm": 150.0,
+      "defElev": 0.0,
+      "canFlip": true,
+      "spawnZ": 10,
+      "minPrice": 449.0,
+      "listings": [
+        {
+          "id": "l17",
+          "store": "IKEA PH",
+          "regPrice": 499.0,
+          "salePrice": null,
+          "bestPrice": 499.0,
+          "promoTag": null,
+          "url": "https://www.ikea.com/ph/en/search/?q=BARLAST%20floor%20lamp"
+        },
+        {
+          "id": "l18",
+          "store": "Shopee Mall",
+          "regPrice": 599.0,
+          "salePrice": 449.0,
+          "bestPrice": 449.0,
+          "promoTag": "25% OFF",
+          "url": "https://shopee.ph/search?keyword=standing%20floor%20lamp%20minimalist"
+        }
+      ]
+    },
+    {
+      "id": "itm_pendant",
+      "name": "SINNERLIG Pendant",
+      "cat": "Lighting",
+      "rooms": [
+        "dining",
+        "kitchen",
+        "living",
+        "bedroom"
+      ],
+      "styles": [
+        "Japandi",
+        "Cozy"
+      ],
+      "zone": "ceiling",
+      "shapeKey": "lamp_pendant",
+      "views": [
+        "front"
+      ],
+      "wCm": 50.0,
+      "dCm": 50.0,
+      "hCm": 54.0,
+      "defElev": 190.0,
+      "canFlip": false,
+      "spawnZ": 18,
+      "minPrice": 1490.0,
+      "listings": [
+        {
+          "id": "l37",
+          "store": "IKEA PH",
+          "regPrice": 1999.0,
+          "salePrice": null,
+          "bestPrice": 1999.0,
+          "promoTag": null,
+          "url": "https://www.ikea.com/ph/en/search/?q=SINNERLIG%20pendant%20lamp"
+        },
+        {
+          "id": "l38",
+          "store": "Shopee Mall",
+          "regPrice": 1850.0,
+          "salePrice": 1490.0,
+          "bestPrice": 1490.0,
+          "promoTag": "20% OFF",
+          "url": "https://shopee.ph/search?keyword=woven%20bamboo%20pendant%20lamp"
+        }
+      ]
+    },
+    {
+      "id": "itm_rug",
+      "name": "STOENSE Area Rug",
+      "cat": "Rugs",
+      "rooms": [
+        "living",
+        "bedroom",
+        "dining"
+      ],
+      "styles": [
+        "Cozy",
+        "Minimalist"
+      ],
+      "zone": "rug",
+      "shapeKey": "rug_rect",
+      "views": [
+        "front",
+        "side"
+      ],
+      "wCm": 195.0,
+      "dCm": 133.0,
+      "hCm": 2.0,
+      "defElev": 0.0,
+      "canFlip": false,
+      "spawnZ": 0,
+      "minPrice": 3230.0,
+      "listings": [
+        {
+          "id": "l19",
+          "store": "IKEA PH",
+          "regPrice": 3499.0,
+          "salePrice": null,
+          "bestPrice": 3499.0,
+          "promoTag": null,
+          "url": "https://www.ikea.com/ph/en/search/?q=STOENSE%20rug"
+        },
+        {
+          "id": "l20",
+          "store": "Mandaue",
+          "regPrice": 3800.0,
+          "salePrice": 3230.0,
+          "bestPrice": 3230.0,
+          "promoTag": "15% OFF",
+          "url": "https://mandauefoam.ph/search?q=area%20rug"
+        }
+      ]
+    },
+    {
+      "id": "itm_plant",
+      "name": "FEJKA Potted Bamboo",
+      "cat": "Decor",
+      "rooms": [
+        "living",
+        "bedroom",
+        "kitchen",
+        "dining"
+      ],
+      "styles": [
+        "Japandi",
+        "Cozy"
+      ],
+      "zone": "floor",
+      "shapeKey": "plant_tall",
+      "views": [
+        "front"
+      ],
+      "wCm": 45.0,
+      "dCm": 45.0,
+      "hCm": 120.0,
+      "defElev": 0.0,
+      "canFlip": true,
+      "spawnZ": 10,
+      "minPrice": 1999.0,
+      "listings": [
+        {
+          "id": "l21",
+          "store": "IKEA PH",
+          "regPrice": 2999.0,
+          "salePrice": null,
+          "bestPrice": 2999.0,
+          "promoTag": null,
+          "url": "https://www.ikea.com/ph/en/search/?q=FEJKA%20bamboo"
+        },
+        {
+          "id": "l22",
+          "store": "Shopee Mall",
+          "regPrice": 2499.0,
+          "salePrice": 1999.0,
+          "bestPrice": 1999.0,
+          "promoTag": "20% OFF",
+          "url": "https://shopee.ph/search?keyword=tall%20faux%20bamboo%20potted%20plant"
+        }
+      ]
+    },
+    {
+      "id": "itm_mirror",
+      "name": "NISSEDAL Mirror",
+      "cat": "Wall Decor",
+      "rooms": [
+        "living",
+        "bedroom",
+        "kitchen",
+        "dining"
+      ],
+      "styles": [
+        "Modern",
+        "Industrial"
+      ],
+      "zone": "wall",
+      "shapeKey": "wall_mirror",
+      "views": [
+        "front"
+      ],
+      "wCm": 65.0,
+      "dCm": 4.0,
+      "hCm": 150.0,
+      "defElev": 50.0,
+      "canFlip": false,
+      "spawnZ": 5,
+      "minPrice": 2799.0,
+      "listings": [
+        {
+          "id": "l23",
+          "store": "IKEA PH",
+          "regPrice": 2999.0,
+          "salePrice": null,
+          "bestPrice": 2999.0,
+          "promoTag": null,
+          "url": "https://www.ikea.com/ph/en/search/?q=NISSEDAL%20mirror"
+        },
+        {
+          "id": "l24",
+          "store": "Lazada",
+          "regPrice": 3200.0,
+          "salePrice": 2799.0,
+          "bestPrice": 2799.0,
+          "promoTag": "VOUCHER",
+          "url": "https://www.lazada.com.ph/catalog/?q=black%20frame%20wall%20mirror"
+        }
+      ]
+    },
+    {
+      "id": "itm_wshelf",
+      "name": "LACK Wall Shelf",
+      "cat": "Wall Decor",
+      "rooms": [
+        "living",
+        "bedroom",
+        "kitchen",
+        "dining"
+      ],
+      "styles": [
+        "Minimalist",
+        "Modern"
+      ],
+      "zone": "wall",
+      "shapeKey": "shelf_wall",
+      "views": [
+        "front",
+        "side"
+      ],
+      "wCm": 110.0,
+      "dCm": 26.0,
+      "hCm": 18.0,
+      "defElev": 135.0,
+      "canFlip": true,
+      "spawnZ": 5,
+      "minPrice": 499.0,
+      "listings": [
+        {
+          "id": "l39",
+          "store": "IKEA PH",
+          "regPrice": 899.0,
+          "salePrice": null,
+          "bestPrice": 899.0,
+          "promoTag": null,
+          "url": "https://www.ikea.com/ph/en/search/?q=LACK%20wall%20shelf"
+        },
+        {
+          "id": "l40",
+          "store": "Shopee Mall",
+          "regPrice": 699.0,
+          "salePrice": 499.0,
+          "bestPrice": 499.0,
+          "promoTag": "28% OFF",
+          "url": "https://shopee.ph/search?keyword=floating%20white%20wall%20shelf"
+        }
+      ]
+    }
+  ],
+  "lookbooks": [
+    {
+      "id": "lb_japandi",
+      "title": "Warm Reading Corner",
+      "studioId": "std_living",
+      "roomW": 450.0,
+      "roomD": 380.0,
+      "ceilH": 260.0,
+      "userId": "demo_creator",
+      "budgetCap": 25000.0,
+      "isPublic": true,
+      "savedAt": "2026-11-01T00:00:00.000",
+      "stickers": [
+        {
+          "id": "s1",
+          "itemId": "itm_rug",
+          "xCm": 210.0,
+          "yCm": 155.0,
+          "elevCm": 0.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 0
+        },
+        {
+          "id": "s2",
+          "itemId": "itm_mirror",
+          "xCm": 210.0,
+          "yCm": 4.0,
+          "elevCm": 65.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 5
+        },
+        {
+          "id": "s3",
+          "itemId": "itm_sofa",
+          "xCm": 210.0,
+          "yCm": 50.0,
+          "elevCm": 0.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 10
+        },
+        {
+          "id": "s4",
+          "itemId": "itm_lamp",
+          "xCm": 80.0,
+          "yCm": 45.0,
+          "elevCm": 0.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 11
+        },
+        {
+          "id": "s5",
+          "itemId": "itm_plant",
+          "xCm": 360.0,
+          "yCm": 45.0,
+          "elevCm": 0.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 12
+        },
+        {
+          "id": "s6",
+          "itemId": "itm_ctable",
+          "xCm": 210.0,
+          "yCm": 165.0,
+          "elevCm": 0.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 15
+        }
+      ]
+    },
+    {
+      "id": "lb_dining",
+      "title": "Minimalist 2-Seat Nook",
+      "studioId": "std_dining",
+      "roomW": 360.0,
+      "roomD": 320.0,
+      "ceilH": 260.0,
+      "userId": "demo_creator",
+      "budgetCap": 20000.0,
+      "isPublic": true,
+      "savedAt": "2026-11-05T00:00:00.000",
+      "stickers": [
+        {
+          "id": "s7",
+          "itemId": "itm_rug",
+          "xCm": 180.0,
+          "yCm": 160.0,
+          "elevCm": 0.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 0
+        },
+        {
+          "id": "s8",
+          "itemId": "itm_mirror",
+          "xCm": 295.0,
+          "yCm": 4.0,
+          "elevCm": 60.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 5
+        },
+        {
+          "id": "s9",
+          "itemId": "itm_pendant",
+          "xCm": 180.0,
+          "yCm": 160.0,
+          "elevCm": 185.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 18
+        },
+        {
+          "id": "s10",
+          "itemId": "itm_dchair",
+          "xCm": 92.0,
+          "yCm": 160.0,
+          "elevCm": 0.0,
+          "rotDeg": 270,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 10
+        },
+        {
+          "id": "s11",
+          "itemId": "itm_dchair",
+          "xCm": 268.0,
+          "yCm": 160.0,
+          "elevCm": 0.0,
+          "rotDeg": 90,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 11
+        },
+        {
+          "id": "s12",
+          "itemId": "itm_dtable",
+          "xCm": 180.0,
+          "yCm": 160.0,
+          "elevCm": 0.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 14
+        }
+      ]
+    },
+    {
+      "id": "lb_kitchen",
+      "title": "Sunday Prep Kitchen",
+      "studioId": "std_kitchen",
+      "roomW": 300.0,
+      "roomD": 240.0,
+      "ceilH": 260.0,
+      "userId": "demo_chef",
+      "budgetCap": 45000.0,
+      "isPublic": true,
+      "savedAt": "2026-11-08T00:00:00.000",
+      "stickers": [
+        {
+          "id": "k1",
+          "itemId": "itm_knoxwall",
+          "xCm": 80.0,
+          "yCm": 18.0,
+          "elevCm": 145.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 5
+        },
+        {
+          "id": "k2",
+          "itemId": "itm_knoxbase",
+          "xCm": 80.0,
+          "yCm": 32.0,
+          "elevCm": 0.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 10
+        },
+        {
+          "id": "k3",
+          "itemId": "itm_island",
+          "xCm": 205.0,
+          "yCm": 155.0,
+          "elevCm": 0.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 12
+        },
+        {
+          "id": "k4",
+          "itemId": "itm_plant",
+          "xCm": 265.0,
+          "yCm": 35.0,
+          "elevCm": 0.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 11
+        },
+        {
+          "id": "k5",
+          "itemId": "itm_pendant",
+          "xCm": 205.0,
+          "yCm": 155.0,
+          "elevCm": 190.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 18
+        }
+      ]
+    },
+    {
+      "id": "lb_scandi",
+      "title": "Cozy Scandi Bedroom",
+      "studioId": "std_bed",
+      "roomW": 340.0,
+      "roomD": 320.0,
+      "ceilH": 260.0,
+      "userId": "demo_scandi",
+      "budgetCap": 32000.0,
+      "isPublic": true,
+      "savedAt": "2026-11-10T00:00:00.000",
+      "stickers": [
+        {
+          "id": "b1",
+          "itemId": "itm_rug",
+          "xCm": 115.0,
+          "yCm": 185.0,
+          "elevCm": 0.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 0
+        },
+        {
+          "id": "b2",
+          "itemId": "itm_wshelf",
+          "xCm": 255.0,
+          "yCm": 15.0,
+          "elevCm": 135.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 5
+        },
+        {
+          "id": "b3",
+          "itemId": "itm_bed",
+          "xCm": 115.0,
+          "yCm": 105.0,
+          "elevCm": 0.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 10
+        },
+        {
+          "id": "b4",
+          "itemId": "itm_nstand",
+          "xCm": 215.0,
+          "yCm": 20.0,
+          "elevCm": 0.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 11
+        },
+        {
+          "id": "b5",
+          "itemId": "itm_dresser",
+          "xCm": 280.0,
+          "yCm": 28.0,
+          "elevCm": 0.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 12
+        },
+        {
+          "id": "b6",
+          "itemId": "itm_wardrobe",
+          "xCm": 310.0,
+          "yCm": 225.0,
+          "elevCm": 0.0,
+          "rotDeg": 90,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 13
+        }
+      ]
+    },
+    {
+      "id": "lb_corner",
+      "title": "Motel Room",
+      "studioId": "std_bed",
+      "roomW": 340.0,
+      "roomD": 320.0,
+      "ceilH": 260.0,
+      "userId": "quiet_guest",
+      "budgetCap": 18000.0,
+      "isPublic": true,
+      "savedAt": "2026-11-12T00:00:00.000",
+      "stickers": [
+        {
+          "id": "m1",
+          "itemId": "itm_mirror",
+          "xCm": 195.0,
+          "yCm": 4.0,
+          "elevCm": 55.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 5
+        },
+        {
+          "id": "m2",
+          "itemId": "itm_bed",
+          "xCm": 105.0,
+          "yCm": 90.0,
+          "elevCm": 0.0,
+          "rotDeg": 270,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 10
+        },
+        {
+          "id": "m3",
+          "itemId": "itm_nstand",
+          "xCm": 25.0,
+          "yCm": 195.0,
+          "elevCm": 0.0,
+          "rotDeg": 270,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 11
+        },
+        {
+          "id": "m4",
+          "itemId": "itm_lamp",
+          "xCm": 315.0,
+          "yCm": 295.0,
+          "elevCm": 0.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 12
+        },
+        {
+          "id": "m5",
+          "itemId": "itm_armchair",
+          "xCm": 280.0,
+          "yCm": 260.0,
+          "elevCm": 0.0,
+          "rotDeg": 90,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 14
+        }
+      ]
+    },
+    {
+      "id": "lb_bright",
+      "title": "Well-Lit Living Room",
+      "studioId": "std_blank",
+      "roomW": 400.0,
+      "roomD": 400.0,
+      "ceilH": 260.0,
+      "userId": "studio_gaffer",
+      "budgetCap": 20000.0,
+      "isPublic": true,
+      "savedAt": "2026-11-13T00:00:00.000",
+      "stickers": [
+        {
+          "id": "w1",
+          "itemId": "itm_lamp",
+          "xCm": 120.0,
+          "yCm": 135.0,
+          "elevCm": 0.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 10
+        },
+        {
+          "id": "w2",
+          "itemId": "itm_lamp",
+          "xCm": 160.0,
+          "yCm": 135.0,
+          "elevCm": 0.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 11
+        },
+        {
+          "id": "w3",
+          "itemId": "itm_lamp",
+          "xCm": 200.0,
+          "yCm": 135.0,
+          "elevCm": 0.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 12
+        },
+        {
+          "id": "w4",
+          "itemId": "itm_lamp",
+          "xCm": 240.0,
+          "yCm": 135.0,
+          "elevCm": 0.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 13
+        },
+        {
+          "id": "w5",
+          "itemId": "itm_lamp",
+          "xCm": 280.0,
+          "yCm": 135.0,
+          "elevCm": 0.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 14
+        },
+        {
+          "id": "w6",
+          "itemId": "itm_sofa",
+          "xCm": 200.0,
+          "yCm": 225.0,
+          "elevCm": 0.0,
+          "rotDeg": 0,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 20
+        }
+      ]
+    },
+    {
+      "id": "lb_starter",
+      "title": "Living Starter Pack",
+      "studioId": "std_blank",
+      "roomW": 400.0,
+      "roomD": 400.0,
+      "ceilH": 260.0,
+      "userId": "minimal_bro",
+      "budgetCap": 14000.0,
+      "isPublic": true,
+      "savedAt": "2026-11-14T00:00:00.000",
+      "stickers": [
+        {
+          "id": "r1",
+          "itemId": "itm_bed",
+          "xCm": 110.0,
+          "yCm": 130.0,
+          "elevCm": 0.0,
+          "rotDeg": 270,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 10
+        },
+        {
+          "id": "r2",
+          "itemId": "itm_dchair",
+          "xCm": 250.0,
+          "yCm": 160.0,
+          "elevCm": 0.0,
+          "rotDeg": 270,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 11
+        },
+        {
+          "id": "r3",
+          "itemId": "itm_tvunit",
+          "xCm": 370.0,
+          "yCm": 160.0,
+          "elevCm": 0.0,
+          "rotDeg": 90,
+          "flipX": false,
+          "isLocked": false,
+          "zIdx": 12
+        }
+      ]
+    }
+  ]
+}

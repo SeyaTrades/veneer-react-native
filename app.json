@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Veneer",
+    "slug": "veneer-react-native",
+    "version": "0.2.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon-ios.png",
+    "android": { "package": "com.veneer.roomplanner", "icon": "./assets/icon-android.png" },
+    "ios": { "bundleIdentifier": "com.veneer.roomplanner", "supportsTablet": true },
+    "web": { "bundler": "metro", "favicon": "./assets/favicon.png" }
+  }
+}
