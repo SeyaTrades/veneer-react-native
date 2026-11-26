@@ -236,7 +236,7 @@ export function Storage() {
         </T>
         <T color={C.muted} style={{ textAlign: 'center' }}>
           {guest
-            ? 'Sign in to store room layouts and generate grouped shopping lists.'
+            ? 'Sign in to save a room and see its shopping list.'
             : 'Decorate a room in Studio and tap Save to keep it here.'}
         </T>
         <View style={{ ...wrap, justifyContent: 'center', marginTop: 7 }}>
@@ -245,7 +245,7 @@ export function Storage() {
             label={guest ? 'Sign In / Register' : 'Open Studio'}
             onPress={() => go(guest ? 'Account' : 'Studio')}
           />
-          {guest && <Btn label="Demo Account" onPress={() => send({ type: 'user', user: demo })} />}
+          {guest && <Btn label="Use demo account" onPress={() => send({ type: 'user', user: demo })} />}
         </View>
       </View>
     );
@@ -302,7 +302,7 @@ export function Account() {
     const e = {};
     if (signUp && name.trim().length < 2) e.name = 'Enter a name';
     if (!email.includes('@')) e.email = 'Enter a valid email';
-    if (pass.length < 4) e.pass = 'Min 4 characters';
+    if (pass.length < 4) e.pass = 'Use at least 4 characters';
     setErrors(e);
     if (Object.keys(e).length) return;
     const address = email.trim();
@@ -315,7 +315,7 @@ export function Account() {
       },
     });
     setPass('');
-    notify(signUp ? 'Account created (local mock)' : 'Signed in (local mock)');
+    notify(signUp ? 'Profile saved on this device' : 'Signed in on this device');
   }
   return (
     <ScrollView
@@ -370,7 +370,7 @@ export function Account() {
               {signUp ? 'Create Account' : 'Sign In to Veneer'}
             </T>
             <T color={C.muted} size={12}>
-              Save rooms, publish lookbooks, and track shopping lists.
+              Your rooms stay on this device. Use the demo account to try saving one.
             </T>
             {signUp && (
               <>
@@ -390,7 +390,7 @@ export function Account() {
             {errors.pass && <T color={C.warn}>{errors.pass}</T>}
             <Btn kind="solid" label={signUp ? 'Create Account' : 'Sign In'} onPress={login} />
             <Btn
-              label="1-Tap Demo Account"
+              label="Use demo account"
               onPress={() => {
                 setPass('');
                 send({ type: 'user', user: demo });

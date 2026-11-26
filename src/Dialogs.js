@@ -74,7 +74,7 @@ export function Properties({ asCard = false }) {
   if (!s)
     return (
       <T color={C.muted} style={{ textAlign: 'center', padding: 16 }}>
-        Select an item on the room{'\n'}to inspect coordinates
+        Tap a piece of furniture to see its position.
       </T>
     );
   const i = byId(s.itemId),
@@ -85,7 +85,7 @@ export function Properties({ asCard = false }) {
   const rows = [
     ['From West Wall', 'Distance from West Wall', 'xCm', w / 2, step],
     ['From North Wall', 'Distance from North Wall', 'yCm', d / 2, step],
-    ['Floor Height (Elev)', 'Height Above Floor', 'elevCm', 0, step * 5],
+    ['Height Above Floor', 'Height Above Floor', 'elevCm', 0, step * 5],
   ];
   return (
     <View style={{ gap: 9 }}>
@@ -260,7 +260,7 @@ function Shop({ room }) {
       >
         <View>
           <T size={11} color={C.muted}>
-            Cheapest Split-Store
+            Lowest total across stores
           </T>
           <T size={16} bold color={C.accent}>
             {peso(split)}
@@ -269,7 +269,7 @@ function Shop({ room }) {
         {ikea !== null && (
           <View style={{ alignItems: 'flex-end' }}>
             <T size={11} color={C.muted}>
-              One-Stop (IKEA PH)
+              All from IKEA PH
             </T>
             <T bold>{peso(ikea)}</T>
           </View>

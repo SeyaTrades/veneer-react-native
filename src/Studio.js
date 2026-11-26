@@ -61,7 +61,7 @@ export default function Studio() {
       type: 'confirm',
       title: 'Switch to ' + studios.find((s) => s.id === id).name + '?',
       message: r.stickers.length
-        ? 'Save or keep your current furniture, or switch cleanly?'
+        ? 'What would you like to do with the furniture in this room?'
         : 'You have a saved room of this type. Load it?',
       buttons,
     });
@@ -72,9 +72,9 @@ export default function Studio() {
     if (!r.stickers.length && !state.dirty) return reset();
     open({
       type: 'confirm',
-      title: 'Start Blank Room?',
-      message: 'Unsaved changes to your current room will be cleared.',
-      buttons: [['Clear & New', reset]],
+      title: 'Start an empty room?',
+      message: 'You’ll lose any changes you haven’t saved.',
+      buttons: [['Start empty', reset]],
     });
   };
   const head = (
